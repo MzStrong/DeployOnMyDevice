@@ -102,7 +102,7 @@ pm2 -v
 *** ของพี่วันชัยจะติดตั้งใน docker ต้องเข้าสู่ bash ของ docker ก่อน
 
 ```bash
-docker exac -it nginx-plus bash
+sudo docker exec -it nginx-plus bash
 ```
 
 
